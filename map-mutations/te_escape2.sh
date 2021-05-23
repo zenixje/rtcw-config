@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+source "${SCRIPT_DIR}/tools.sh"
+
 remove_spawnpoint "${1}" "team_CTF_redplayer" "360" "-5984 1880 224"
 remove_spawnpoint "${1}" "team_CTF_redplayer" "270" "-5792 2016 224"
 remove_spawnpoint "${1}" "team_CTF_redplayer" "360" "-5920 1880 224"
