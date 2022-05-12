@@ -23,3 +23,4 @@ or which ever is specified in the `SETTINGSURL` variable.
 
 Changes to this repository must be approved by the European RTCW gather
 administrators.
+test
